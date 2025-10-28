@@ -1,0 +1,9 @@
+{
+  "buildCommand": "git clone https://github.com/flutter/flutter.git -b stable && flutter/bin/flutter config --enable-web && flutter/bin/flutter build web",
+  "outputDirectory": "build/web",
+  "installCommand": "flutter/bin/flutter pub get",
+  "framework": "other",
+  "env": {
+    "FLUTTER_WEB_USE_SKIA": "true"
+  }
+}
